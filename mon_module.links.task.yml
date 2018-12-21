@@ -1,0 +1,4 @@
+upkeep_robot.view:
+  route_name: entity.upkeep_robot.canonical
+  base_route: entity.upkeep_robot.canonical
+  title: View

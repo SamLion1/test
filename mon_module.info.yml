@@ -1,0 +1,7 @@
+name: Mon Petit Module
+description: A custom added module to test
+type: module
+package: Just Testing
+core: 8.x
+version: '8.x-1.5'
+configure: mon_module.form

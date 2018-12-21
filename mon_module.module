@@ -1,0 +1,31 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function mon_module_theme()
+{
+    return array(
+        'panel_page' => array(
+            'template' => 'panel_page',
+            'variables' => array('content' => NULL)
+        ),
+        'panel_bloc' => array(
+            'template' => 'panel_bloc',
+            'variables' => array('content' => NULL)
+        )
+    );
+}
+
+/**
+ * Implements hook_help().
+ */
+    function mon_module_help($route_name, RouteMatchInterface $route_match)
+    {
+        switch ($route_name) {
+            case 'help.page.mon_module':
+                return t("Ce module sert à souhaiter la bienvenue aux visiteurs via une page accessible au chemin /mon_module");
+        }
+    }
