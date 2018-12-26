@@ -1,0 +1,13 @@
+{
+  "name": "drupal/mon_module",
+  "description": "A custom added module to test",
+  "type": "drupal-module",
+  "keywords": ["Drupal", "MonModule"],
+  "homepage": "http://drupal.org/project/mon_module",
+  "authors": [
+    {
+      "name": "Nesrine Amamou",
+      "role": "Developper"
+    }
+  ]
+}
